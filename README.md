@@ -17,14 +17,16 @@ Lisavälja lisamine ei ole raske.
 Välja saab lisada antud näite põhjal (kasutame selleks näiteks responsible_person):
 ### 1. Navigeeri kausta classes ja ava fail devices 
 ### 2. Lisa vajalik väli device file:
-```_init__(self, name, device_type, status, location, number, **responsible_person**)
+```
+_init__(self, name, device_type, status, location, number, **responsible_person**)
     self.name = name,
     ...
     ...
     self.responsible_person = responsible_person
 
     def __str__(self):
-        return f"Nimi: {self.name} | Seadme tüüp: {self.device_type} | Seisund: {self.status} | Asukoht: {self.location} |Number: {self.number} | Vastutaja: {self.responsible_person}"```
+        return f"Nimi: {self.name} | Seadme tüüp: {self.device_type} | Seisund: {self.status} | Asukoht: {self.location} |Number: {self.number} | Vastutaja: {self.responsible_person}"
+´´´
 
 ### 3. Muuda *main.py* sisu
         ```if choice == '1':
