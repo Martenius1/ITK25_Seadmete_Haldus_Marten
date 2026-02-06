@@ -25,10 +25,11 @@ _init__(self, name, device_type, status, location, number, **responsible_person*
     self.responsible_person = responsible_person
 
     def __str__(self):
-        return f"Nimi: {self.name} | Seadme tüüp: {self.device_type} | Seisund: {self.status} | Asukoht: {self.location} |Number: {self.number} | Vastutaja: {self.responsible_person}"
+        return f"Nimi: {self.name} | Seadme tüüp: {self.device_type} | Seisund: {self.status} | Asukoht: {self.location} |Number: {self.number} **| Vastutaja: {self.responsible_person}**"
 ```
 ### 3. Muuda *main.py* sisu
-        ```if choice == '1':
+```
+if choice == '1':
             name = input("Sisesta seadme nimi: ")
             device_type = input("Sisesta seadme tüüp: ")
             status = input("Sisesta seadme seisund (available, in_use, broken): ")
@@ -36,10 +37,12 @@ _init__(self, name, device_type, status, location, number, **responsible_person*
             number = input("Sisesta seadme number: ")
             **responsible_person = input("Kes on vastutav?")** 
 
-            device = Device(name, device_type, status, location, number, responsible_person)
-            device_manager.add_device(device)```
+            device = Device(name, device_type, status, location, number, **responsible_person**)
+            device_manager.add_device(device)
+```
 ### 4. Ja ongi valmis!
-<img width="224" height="204" alt="image" src="https://github.com/user-attachments/assets/5653871a-c673-4d91-8a13-9c26337b978b" />
+<img width="212" height="197" alt="image" src="https://github.com/user-attachments/assets/97919643-7af3-465b-ad12-5e3a14533185" />
+
 
 
 
