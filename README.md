@@ -51,6 +51,7 @@ git clone https://github.com/Martenius1/ITK25_Seadmete_Haldus_Marten.git
 cd REPO
 ```
 Avage repos terminal
+
 ![ezgif-181ee05f5e044a82](https://github.com/user-attachments/assets/24538071-fd75-4083-98b6-945506811b44)
 
 ### Järgmisena kirjutage terminali *py main.py* ja programm hakkab tööle
