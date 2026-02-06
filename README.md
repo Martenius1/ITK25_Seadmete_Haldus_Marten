@@ -45,7 +45,7 @@ if choice == '1':
 ### 4. Ja ongi valmis!
 
 # Kuidas kasutada?
-Kloonige remo
+Kloonige repo
 ```
 git clone https://github.com/Martenius1/ITK25_Seadmete_Haldus_Marten.git
 cd REPO
@@ -54,7 +54,7 @@ Avage repos terminal
 
 ![ezgif-181ee05f5e044a82](https://github.com/user-attachments/assets/24538071-fd75-4083-98b6-945506811b44)
 
-### Järgmisena kirjutage terminali *py main.py* ja programm hakkab tööle
+Järgmisena kirjutage terminali *py main.py* ja programm hakkab tööle
 
 # Kuidas valida kas CSV või JSON salvestus? 
 Selleks on vaja programm käivitada py main.py käsuga ja navigeerida valikule 5. ehk salvesta seadmed. Selle valimisel tuleb kirjutada faili nimi ja valida kas salvestada CSV või JSON formaadis.
