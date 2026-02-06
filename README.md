@@ -12,6 +12,8 @@ Antud programmiga saaab hallata erinevaid seadmeid, näiteks printereid ja monit
 Seadmeid saab lisada läbi CLI ja salvestada need CSV või JSON faili. 
 Seadme olekut saab muuta läbi CLI interaktiivse menüü
 
+<img width="212" height="197" alt="Screenshot 2026-02-06 131325" src="https://github.com/user-attachments/assets/c6fc144c-9aa2-432c-b219-5367311c3fca" />
+
 # Dünaamilisus 
 Lisavälja lisamine ei ole raske.
 Välja saab lisada antud näite põhjal (kasutame selleks näiteks responsible_person):
@@ -41,7 +43,23 @@ if choice == '1':
             device_manager.add_device(device)
 ```
 ### 4. Ja ongi valmis!
-<img width="212" height="197" alt="image" src="https://github.com/user-attachments/assets/97919643-7af3-465b-ad12-5e3a14533185" />
+
+# Kuidas kasutada?
+Kloonige remo
+```
+git clone https://github.com/Martenius1/ITK25_Seadmete_Haldus_Marten.git
+cd REPO
+```
+Avage repos terminal
+![ezgif-181ee05f5e044a82](https://github.com/user-attachments/assets/24538071-fd75-4083-98b6-945506811b44)
+
+### Järgmisena kirjutage terminali *py main.py* ja programm hakkab tööle
+
+# Kuidas valida kas CSV või JSON salvestus? 
+Selleks on vaja programm käivitada py main.py käsuga ja navigeerida valikule 5. ehk salvesta seadmed. Selle valimisel tuleb kirjutada faili nimi ja valida kas salvestada CSV või JSON formaadis.
+
+
+
 
 
 
