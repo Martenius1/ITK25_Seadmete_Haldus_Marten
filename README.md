@@ -26,8 +26,7 @@ _init__(self, name, device_type, status, location, number, **responsible_person*
 
     def __str__(self):
         return f"Nimi: {self.name} | Seadme tüüp: {self.device_type} | Seisund: {self.status} | Asukoht: {self.location} |Number: {self.number} | Vastutaja: {self.responsible_person}"
-´´´
-
+```
 ### 3. Muuda *main.py* sisu
         ```if choice == '1':
             name = input("Sisesta seadme nimi: ")
@@ -40,8 +39,9 @@ _init__(self, name, device_type, status, location, number, **responsible_person*
             device = Device(name, device_type, status, location, number, responsible_person)
             device_manager.add_device(device)```
 ### 4. Ja ongi valmis!
+<img width="224" height="204" alt="image" src="https://github.com/user-attachments/assets/5653871a-c673-4d91-8a13-9c26337b978b" />
 
-<img width="221" height="205" alt="image" src="https://github.com/user-attachments/assets/80d8001a-355b-4ae6-b864-d05548481715" />
+
 
 
 
